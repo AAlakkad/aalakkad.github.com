@@ -1,0 +1,6 @@
+<div class="social-icons">
+    {% if site.author.twitter != '' %}<a href="https://twitter.com/{{ site.author.twitter}}" target="_blank"><span class="fa fa-2x fa-twitter"></span></a>{% endif %}
+    {% if site.author.github != '' %}<a href="https://github.com/{{ site.author.github}}" target="_blank"><span class="fa fa-2x fa-github"></span></a>{% endif %}
+    {% if site.author.linkedin != '' %}<a href="https://linkedin.com/in/{{ site.author.linkedin}}" target="_blank"><span class="fa fa-2x fa-linkedin-square"></span></a>{% endif %}
+    {% if site.author.google != '' %}<a href="https://plus.google.com/+{{ site.author.google}}" target="_blank"><span class="fa fa-2x fa-google-plus-square"></span></a>{% endif %}
+</div>

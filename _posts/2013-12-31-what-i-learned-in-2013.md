@@ -3,7 +3,6 @@ layout: post
 title: "What I learned in 2013"
 description: ""
 ---
-{% include JB/setup %}
 
 On 7 February from this year I start working for [Haykal Media](http://haykalmedia.com "Haykal Media") company (and still for now), I like the work here since you can do your job and have fun learning new stuff without restriction -since you're doing your job!-.
 

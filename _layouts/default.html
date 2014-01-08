@@ -1,6 +1,67 @@
----
-theme :
-  name : twitter
----
-{% include JB/setup %}
-{% include themes/twitter/default.html %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>
+            {% if page.title %} {{ page.title }} • {% endif %} {{ site.name }}
+        </title>
+        {% if page.description %}
+        <meta name="description" content="{{ page.description }}">
+        {% else %}
+        <meta name="description" content="{{ site.description }}">
+        {% endif %}
+        <meta name="author" content="{{ site.author.name }}">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--[if lt IE 9]>
+            <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Noto+Serif:400,700,400italic|Open+Sans:700,400">
+        <link href="{{ site.assets_path }}/css/bootstrap.css" rel="stylesheet">
+        <link href="{{ site.assets_path }}/css/font-awesome.css" rel="stylesheet">
+        <link href="{{ site.assets_path }}/css/style.css" rel="stylesheet" type="text/css" media="all">
+
+        <!--
+        <link rel="shortcut icon" href="images/favicon.ico">
+        -->
+
+        <!-- atom & rss feed -->
+        <link href="{{site.url}}{{ site.atom_path }}" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
+        <link href="{{site.url}}{{ site.rss_path }}" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
+
+    </head>
+
+    <body>
+        <header class="text-center">
+            <a href="{{ site.url }}">
+                <img src="{{ site.assets_path }}/images/avatar.jpg" alt="" class="img-circle" width="120">
+                <h1>{{ site.author.name }}</h1>
+            </a>
+            <h3>{{ site.tagline }}</h3>
+        </header>
+
+        <section class="container">
+            <div class="row">
+                {{ content }}
+            </div>
+        </section>
+
+        <footer>
+            {% include themes/ghost/social_icons %}
+
+            <p>
+                All content copyright <a href="{{ / }}">{{ site.author.name }}</a>
+                &copy;  {{ site.time | date: '%Y' }} • All rights reserved.
+            </p>
+            <small>
+                Published using: <a href="http://jekyllrb.com">Jekyll</a> - <a href="">Ghost theme</a>
+            </small>
+        </footer>
+
+        <!-- Put analytics here -->
+        {% if site.analytics.provider == true %}
+        {% include themes/ghost/google %}
+        {% endif %}
+    </body>
+</html>

@@ -1,5 +1,18 @@
 ---
 layout: default
 ---
-{% include JB/setup %}
-{% include themes/twitter/post.html %}
+
+<article class="col-md-8 col-md-offset-2">
+    <h2>
+        {{ page.title }}
+    </h2>
+    <small>{{ page.date | date_to_long_string }}</small>
+    <div class="content">
+        {{ content }}
+    </div>
+</article>
+
+<!-- Comments here -->
+{% if site.comments.provider == true %}
+{% include themes/ghost/disqus %}
+{% endif %}
