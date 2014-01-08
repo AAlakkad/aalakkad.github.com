@@ -2,11 +2,11 @@
 name: Ammar Alakkad
 tagline: Web Developer
 description: "Web Developer, Specialized in PHP (Wordpress, Laravel, CodeIgniter) with many front-end technologies like Twitter Bootstrap, Zurb Foundation, Sass, and others."
-author :
-  name : Ammar Alakkad
-  email : am.alakkad@gmail.com
-  github : AAlakkad
-  twitter : Am_Alakkad
+author:
+  name: Ammar Alakkad
+  email: am.alakkad@gmail.com
+  github: AAlakkad
+  twitter: Am_Alakkad
   google: AmmarAlakkad
   linkedin: ammaralakkad
 
@@ -17,15 +17,15 @@ url: http://aalakkad.github.io
 production_url: http://aalakkad.github.io
 assets_path: /assets
 
-atom_path : /atom.xml
-rss_path : /rss.xml
+atom_path: /atom.xml
+rss_path: /rss.xml
 
-comments :
-    provider : true
-    disqus :
-      short_name : aalakkad
+comments:
+    provider: true
+    disqus:
+      short_name: aalakkad
 
-analytics :
-    provider : true
-    google :
-        tracking_id : 'UA-46907291-1'
+analytics:
+    provider: true
+    google:
+        tracking_id: 'UA-46907291-1'
