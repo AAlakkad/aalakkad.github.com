@@ -61,6 +61,12 @@ article small {
 article p {
   line-height: 1.6em;
 }
+article .content h1 {
+  font-size: 42px;
+}
+article .content h2 {
+  font-size: 36px;
+}
 
 article:after {
   display: block;

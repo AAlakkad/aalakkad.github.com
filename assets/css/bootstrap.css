@@ -254,7 +254,7 @@ html {
 
 body {
   font-family: "Noto Serif", sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 1.42857;
   color: #333333;
   background-color: white; }
@@ -305,8 +305,8 @@ img {
   border-radius: 50%; }
 
 hr {
-  margin-top: 28px;
-  margin-bottom: 28px;
+  margin-top: 25px;
+  margin-bottom: 25px;
   border: 0;
   border-top: 1px solid #eeeeee; }
 
@@ -321,16 +321,16 @@ hr {
   border: 0; }
 
 p {
-  margin: 0 0 14px; }
+  margin: 0 0 12.5px; }
 
 .lead {
-  margin-bottom: 28px;
-  font-size: 23px;
+  margin-bottom: 25px;
+  font-size: 20px;
   font-weight: 200;
   line-height: 1.4; }
   @media (min-width: 768px) {
     .lead {
-      font-size: 30px; } }
+      font-size: 27px; } }
 
 small,
 .small {
@@ -403,8 +403,8 @@ h1, h2, h3, h4, h5, h6,
 h1,
 h2,
 h3 {
-  margin-top: 28px;
-  margin-bottom: 14px; }
+  margin-top: 25px;
+  margin-bottom: 12.5px; }
   h1 small,
   h1 .small,
   h2 small,
@@ -416,8 +416,8 @@ h3 {
 h4,
 h5,
 h6 {
-  margin-top: 14px;
-  margin-bottom: 14px; }
+  margin-top: 12.5px;
+  margin-bottom: 12.5px; }
   h4 small,
   h4 .small,
   h5 small,
@@ -427,32 +427,32 @@ h6 {
     font-size: 75%; }
 
 h1, .h1 {
-  font-size: 52px; }
+  font-size: 46px; }
 
 h2, .h2 {
-  font-size: 43px; }
+  font-size: 38px; }
 
 h3, .h3 {
-  font-size: 34px; }
+  font-size: 31px; }
 
 h4, .h4 {
-  font-size: 25px; }
+  font-size: 23px; }
 
 h5, .h5 {
-  font-size: 20px; }
+  font-size: 18px; }
 
 h6, .h6 {
-  font-size: 17px; }
+  font-size: 16px; }
 
 .page-header {
-  padding-bottom: 13px;
-  margin: 56px 0 28px;
+  padding-bottom: 11.5px;
+  margin: 50px 0 25px;
   border-bottom: 1px solid #eeeeee; }
 
 ul,
 ol {
   margin-top: 0;
-  margin-bottom: 14px; }
+  margin-bottom: 12.5px; }
   ul ul,
   ul ol,
   ol ul,
@@ -471,7 +471,7 @@ ol {
     padding-left: 0; }
 
 dl {
-  margin-bottom: 28px; }
+  margin-bottom: 25px; }
 
 dt,
 dd {
@@ -511,11 +511,11 @@ abbr.initialism {
   text-transform: uppercase; }
 
 blockquote {
-  padding: 14px 28px;
-  margin: 0 0 28px;
+  padding: 12.5px 25px;
+  margin: 0 0 25px;
   border-left: 5px solid #eeeeee; }
   blockquote p {
-    font-size: 25px;
+    font-size: 22.5px;
     font-weight: 300;
     line-height: 1.25; }
   blockquote p:last-child {
@@ -547,7 +547,7 @@ blockquote:after {
   content: ""; }
 
 address {
-  margin-bottom: 28px;
+  margin-bottom: 25px;
   font-style: normal;
   line-height: 1.42857; }
 
@@ -567,9 +567,9 @@ code {
 
 pre {
   display: block;
-  padding: 13.5px;
-  margin: 0 0 14px;
-  font-size: 19px;
+  padding: 12px;
+  margin: 0 0 12.5px;
+  font-size: 17px;
   line-height: 1.42857;
   word-break: break-all;
   word-wrap: break-word;
