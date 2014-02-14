@@ -1,9 +1,9 @@
 name: Ammar Alakkad
-description: Site description
+description: My personal site
 markdown: redcarpet
 pygments: true
 permalink: /blog/:title/
-production_url: http://aalakkad.github.io/Y-A-Jekyll-Theme
+production_url: http://aalakkad.github.io
 rss_path: /rss.xml
 timezone: Asia/Syria
 encoding: UTF-8
