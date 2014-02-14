@@ -9,6 +9,8 @@ timezone: Asia/Syria
 encoding: UTF-8
 exclude: [README.md]
 
+tracking_id: 'UA-46907291-1'
+
 author:
     name: Ammar Alakkad
     first_name: Ammar
