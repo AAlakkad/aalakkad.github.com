@@ -1,31 +1,20 @@
-# Basic information
 name: Ammar Alakkad
-tagline: "Muslim, Web Developer"
-description: "Muslim, Web Developer, Specialized in PHP (Wordpress, Laravel, CodeIgniter) with many front-end technologies like Twitter Bootstrap, Zurb Foundation, Sass, and others."
-author:
-  name: Ammar Alakkad
-  email: am.alakkad@gmail.com
-  github: AAlakkad
-  twitter: Am_Alakkad
-  google: AmmarAlakkad
-  linkedin: ammaralakkad
-
-paginate: 5
-permalink: :title
-
-url: http://aalakkad.github.io
-production_url: http://aalakkad.github.io
-assets_path: /assets
-
-atom_path: /atom.xml
+description: Site description
+markdown: redcarpet
+pygments: true
+permalink: /blog/:title/
+production_url: http://aalakkad.github.io/Y-A-Jekyll-Theme
 rss_path: /rss.xml
+timezone: Asia/Syria
+encoding: UTF-8
+exclude: [README.md]
 
-comments:
-    provider: true
-    disqus:
-      short_name: aalakkad
-
-analytics:
-    provider: true
-    google:
-        tracking_id: 'UA-46907291-1'
+author:
+    name: Ammar Alakkad
+    first_name: Ammar
+    title: Web Developer
+    email: am.alakkad@gmail.com
+    social:
+        github: AAlakkad
+        twitter: Am_Alakkad
+        linkedin: ammaralakkad

@@ -1,1 +1,9 @@
-{% include themes/ghost/default.html %}
+{% if page.rtl == true %}
+  {% include header-rtl.html %}
+{% else %}
+  {% include header.html %}
+{% endif %}
+
+{{ content }}
+
+{% include footer.html %}

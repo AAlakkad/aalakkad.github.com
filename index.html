@@ -1,16 +1,41 @@
 ---
 layout: default
+title: Your New Jekyll Site
 ---
-{% for post in paginator.posts %}
-    <article class="col-md-8 col-md-offset-2">
-        <h2>
-            <a href="{{ post.url }}">{{ post.title }}</a>
-        </h2>
-        <small>{{ post.date | date_to_long_string }}</small>
-        <div class="content">
-            {{ post.content }}
-        </div>
-    </article>
-{% endfor %}
 
-{% include themes/ghost/pagination %}
+<div id="ww">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 centered">
+                <img src="assets/img/profile.jpg" width="150" alt="{{site.author.first_name }}" class="img-circle">
+                <h1>Hi, I'm {{site.author.first_name }}!</h1>
+                <h3>Welcome everybody. I'm Muslim, Web Developer.</h3>
+                <br>
+                <p>I work with PHP (Laravel, WordPress), JavaScript (jQuery), CSS (Twitter Bootstrap, SASS, LESS), Grunt, and others.</p>
+
+            </div><!-- /col-lg-8 -->
+        </div><!-- /row -->
+    </div> <!-- /container -->
+</div><!-- /ww -->
+
+
+<!-- +++++ Projects Section +++++ -->
+<div class="container pt work">
+    <div class="row mt centered">
+        {% assign counter = 0 %}
+        {% assign projects = site.pages | sort:"name" %}
+        {% for item in projects %}
+            {% if item.url contains '/work/' and item.url != '/work/index.html' %}
+                <div class="col-lg-4">
+                    <a class="zoom green" href="{{ item.url }}"><img class="img-responsive" src="{{ item.images | first }}" alt="" /></a>
+                    <p>{{item.title}}</p>
+                </div>
+                {% capture counter %}{{ counter | plus: '1' }}{% endcapture %}
+                {% if counter == '3' or counter == '6' or counter == '9' %}
+                    </div>
+                    <div class="row mt centered">
+                {% endif %}
+            {% endif %}
+        {% endfor %}
+    </div>
+</div>
