@@ -1,0 +1,36 @@
+---
+layout: default
+---
+
+<div class="container pt work">
+    <div class="row mt">
+        <div class="col-lg-6 col-lg-offset-3 centered">
+            <h3>{{ page.title }}</h3>
+            <hr>
+            <p>{{ page.content }}</p>
+        </div>
+    </div>
+
+    {% if page.company or page.date or page.type or page.technologies %}
+        <div class="row mt centered">
+            <div class="col-lg-8 col-lg-offset-2">
+                <table border="0" cellpadding="8">
+                    {% if page.company %}<tr><th>Company:</th><td align="left">{{ page.company }}</td></tr>{% endif %}
+                    {% if page.date %}<tr><th>Project date:</th><td align="left">{{ page.date }}</td></tr>{% endif %}
+                    {% if page.type %}<tr><th>Type:</th><td align="left">{{ page.type }}</td></tr>{% endif %}
+                    {% if page.technologies %}<tr><th>Technologies:</th><td align="left">{{ page.technologies }}</td></tr>{% endif %}
+                </table>
+            </div>
+        </div>
+    {% endif %}
+
+    {% if page.images %}
+        <div class="row mt centered">
+            <div class="col-lg-8 col-lg-offset-2">
+                {% for image in page.images %}
+                    <p><img class="img-responsive img-rounded" src="{{ image }}"></p>
+                {% endfor %}
+            </div>
+        </div>
+    {% endif %}
+</div><!-- /container -->
