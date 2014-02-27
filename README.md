@@ -20,3 +20,4 @@ Yet Another Jekyll Theme.
 - [x] Assign index work items to array, then loop in it and add clearfix after 3 and 6 and 9.
 - Get some feedbacks about the design.
 - Fill about page.
+- Add very simple page for examples, includes simple header, simple footer and advertisment.
