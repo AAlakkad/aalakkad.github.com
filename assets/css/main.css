@@ -247,3 +247,7 @@ bt {
     -moz-box-shadow: 0 0 10px 0 #BBB;
     box-shadow: 0 0 10px 0 #BBB;
 }
+
+ul, ol {
+  margin-bottom: 25px
+}
