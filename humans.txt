@@ -3,7 +3,8 @@ Thanks for stepping by!
 Here's the resources I used to build this site:
 
 - Jekyll: http://jekyllrb.com/
-- Bootstrap Stanly theme: http://blacktie.co/2014/01/stanley-freelancer-theme/
-- SublimeText editor: http://sublimetext.com
+- Grunt: http://gruntjs.com/
+- Sass: http://sass-lang.org/
+- Sublime Text editor: http://sublimetext.com/3
 
 Hosted on GitHub Pages.

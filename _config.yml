@@ -1,13 +1,18 @@
 name: Ammar Alakkad
-description: My personal site
+description: Blog
+highlighter: pygments
 markdown: redcarpet
-pygments: true
 permalink: /blog/:title/
 production_url: http://aalakkad.github.io
 rss_path: /rss.xml
 timezone: Asia/Syria
 encoding: UTF-8
-exclude: [README.md]
+exclude: [README.md, Vagrantfile]
+
+collections:
+    projects:
+        output: true
+        permalink: /projects/:path/
 
 tracking_id: 'UA-46907291-1'
 

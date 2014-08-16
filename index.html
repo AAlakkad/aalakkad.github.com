@@ -1,41 +1,22 @@
 ---
 layout: default
-title: Your New Jekyll Site
+title: Blog
 ---
 
-<div id="ww">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 centered">
-                <img src="assets/img/profile.jpg" width="150" alt="{{site.author.first_name }}" class="img-circle">
-                <h1>Hi, I'm {{site.author.first_name }}!</h1>
-                <h3>Welcome everybody. I'm Muslim, Web Developer.</h3>
-                <br>
-                <p>I work with PHP (Laravel, WordPress), JavaScript (jQuery), CSS (Twitter Bootstrap, SASS, LESS), Grunt, and others.</p>
+{% for post in site.posts %}
+    <div class="post" {% if post.rtl %}dir="rtl"{% endif %}>
+        <h1 class="title">
+            <a href="{{ post.url }}">{{ post.title }}</a>
+        </h1>
+        <date class="date">{{ post.date | date: "%B %d, %Y" }}</date>
 
-            </div><!-- /col-lg-8 -->
-        </div><!-- /row -->
-    </div> <!-- /container -->
-</div><!-- /ww -->
+        {% if post.image %}
+            <p><img class="img-responsive" src="{{ site.url }}/images/{{ post.image }}" alt="{{ page.title }}"></p>
+        {% endif %}
 
-
-<!-- +++++ Projects Section +++++ -->
-<div class="container pt work">
-    <div class="row mt centered">
-        {% assign counter = 0 %}
-        {% assign projects = site.pages | sort:"name" %}
-        {% for item in projects %}
-            {% if item.url contains '/work/' and item.url != '/work/index.html' %}
-                <div class="col-lg-4">
-                    <a class="zoom green" href="{{ item.url }}"><img class="img-responsive" src="{{ item.images | first }}" alt="" /></a>
-                    <p>{{item.title}}</p>
-                </div>
-                {% capture counter %}{{ counter | plus: '1' }}{% endcapture %}
-                {% if counter == '3' or counter == '6' or counter == '9' %}
-                    </div>
-                    <div class="row mt centered">
-                {% endif %}
-            {% endif %}
-        {% endfor %}
+        {{ post.content }}
+        <a href="{{ post.url }}">[Post permalink]</a>
     </div>
-</div>
+    <hr width="50%" align="center">
+    <br>
+{% endfor %}

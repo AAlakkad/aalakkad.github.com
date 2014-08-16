@@ -1,0 +1,19 @@
+---
+layout: default
+title: Work
+---
+
+<h1>Projects</h1>
+
+<div class="row mt centered">
+
+{% for item in site.projects %}
+    <div class="col-lg-6">
+        <a class="zoom green" href="{{ item.url }}">
+            <img class="img-responsive" src="{{ item.images | first }}" alt="" />
+            <p>{{item.title}}</p>
+        </a>
+    </div>
+{% endfor %}
+
+</div>

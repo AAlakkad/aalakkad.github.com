@@ -3,7 +3,7 @@ layout: post
 title: "My favorite sublime packages"
 ---
 
-This is a collection of useful packages, I used it when I develop for the web.
+This is a collection of useful packages I use while developing (usually for web).
 
 There's a [gist](https://gist.github.com/AAlakkad/5106627) you can fork to keep your own.
 

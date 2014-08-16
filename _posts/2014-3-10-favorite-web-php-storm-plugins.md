@@ -3,11 +3,12 @@ layout: post
 title: "My favorite Web/PHP Storm plugins"
 ---
 
-I used to work a lot with [SublimeText](http://sublimetext.com/3), it's really fast, lightweight and an awesome editor.
+I find many people using [JetBrains](http://jetbrains.com) editors like [WebStorm](http://jetbrains.com/webstorm/) and [PHPStorm](http://jetbrains.com/phpstorm/), so I decide to give it a try.
 
-But I find many people using [JetBrains](http://jetbrains.com) editors like [WebStorm](http://jetbrains.com/webstorm/) and [PHPStorm](http://jetbrains.com/phpstorm/), so I decide to give it a try.
+I installed the EAP *Early Access Program* version for [WebStorm](http://confluence.jetbrains.com/display/WI/WebStorm+EAP) and [PHPStorm](http://confluence.jetbrains.com/display/PhpStorm/PhpStorm+Early+Access+Program), because its free temporarly and has more features.
 
-I installed the EAP *Early Access Program* version for [WebStorm](http://confluence.jetbrains.com/display/WI/WebStorm+EAP) and [PHPStorm](http://confluence.jetbrains.com/display/PhpStorm/PhpStorm+Early+Access+Program), because it contain some cutting edge features like multi-selection (which I use a lot in SublimeText).
+After using these applications for a while I find myself back to Sublime Text, these applications need a lot of hardware power to run smoonthly, whick I don't have.
+
 
 ## The plugins
 

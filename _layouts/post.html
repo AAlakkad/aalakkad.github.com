@@ -2,24 +2,16 @@
 layout: default
 ---
 
-<div id="white">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <p><img src="/assets/img/profile.jpg" width="50px" height="50px" class="img-circle"> <ba>{{ site.author.name }}</ba></p>
-                <p><bd>{{ page.date | date: "%B %d, %Y" }}</bd></p>
-                <h1>{{ page.title }}</h1>
+    <div class="post" {% if page.rtl %}dir="rtl"{% endif %}>
+        <h1 class="title">{{ page.title }}</h1>
+        <date class="date">{{ page.date | date: "%B %d, %Y" }}</date>
 
-                {% if page.image %}
-                    <p><img class="img-responsive" src="{{ site.url }}/images/{{ page.image }}" alt="{{ page.title }}"></p>
-                {% endif %}
+        {% if page.image %}
+            <p><img class="img-responsive" src="{{ site.url }}/images/{{ page.image }}" alt="{{ page.title }}"></p>
+        {% endif %}
 
-                {{ content }}
-                <br>
-                <hr>
-                <!-- Comments? -->
-                {% include sharing-buttons.html %}
-            </div>
-        </div>
+        {{ content }}
+        <br>
+        <hr>
+        {% include sharing-buttons.html %}
     </div>
-</div>
