@@ -1,7 +1,4 @@
 Ammar Alakkad blog
 ==================
 
-## Todo:
-
-- Check code highlighting.
-- 
+[http://aalakkad.github.io](http://aalakkad.github.io)
