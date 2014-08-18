@@ -590,6 +590,10 @@ img {
   .navbar h1 {
     margin: auto; }
 
+.img-rounded {
+  -webkit-box-shadow: 0 0 3px #999;
+  box-shadow: 0 0 3px #aaa; }
+
 .title {
   color: rgba(0, 0, 0, 0.8); }
   .title a, .title a:hover, .title a:link, .title a:active {

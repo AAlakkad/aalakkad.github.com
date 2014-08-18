@@ -7,13 +7,14 @@ layout: default
         <p>{{ page.content }}</p>
     </div>
 
-    {% if page.company or page.date or page.type or page.technologies %}
-        <table border="0" cellpadding="8">
-            {% if page.company %}<tr><th align="right">Company:</th><td></td><td align="left">{{ page.company }}</td></tr>{% endif %}
-            {% if page.date %}<tr><th align="right">Project date:</th><td></td><td align="left">{{ page.date }}</td></tr>{% endif %}
-            {% if page.type %}<tr><th align="right">Type:</th><td></td><td align="left">{{ page.type }}</td></tr>{% endif %}
-            {% if page.technologies %}<tr><th align="right">Technologies:</th><td></td><td align="left">{{ page.technologies }}</td></tr>{% endif %}
-        </table>
+    {% if page.company or page.client or page.date or page.type or page.technologies %}
+        <dl>
+            {% if page.company %}<dl><dt align="right">Company:</dt><dd align="left">{{ page.company }}</dd></dl>{% endif %}
+            {% if page.client %}<dl><dt align="right">Client:</dt><dd align="left">{{ page.client }}</dd></dl>{% endif %}
+            {% if page.date %}<dl><dt align="right">Project date:</dt><dd align="left">{{ page.date }}</dd></dl>{% endif %}
+            {% if page.type %}<dl><dt align="right">Type:</dt><dd align="left">{{ page.type }}</dd></dl>{% endif %}
+            {% if page.technologies %}<dl><dt align="right">Technologies:</dt><dd align="left">{{ page.technologies }}</dd></dl>{% endif %}
+        </dl>
     {% endif %}
 
     {% if page.images %}

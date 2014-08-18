@@ -1,9 +1,9 @@
 ---
 layout: work
-type: projects
 title: Aliqtisadi
+order: 1
 permalink: projects/aliqtiasdi.html
-images: [/uploads/portfolio/aliqtiasdi-1.png, /uploads/portfolio/aliqtiasdi-2.png, /uploads/portfolio/aliqtiasdi-3.png]
+images: [/uploads/portfolio/aliqtisadi/1.png, /uploads/portfolio/aliqtisadi/2.png, /uploads/portfolio/aliqtisadi/3.png]
 company: Haykal Media
 date: 2013-2014
 type: Frontend/Backend Development
