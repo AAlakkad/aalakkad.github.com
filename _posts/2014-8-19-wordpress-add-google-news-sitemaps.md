@@ -4,12 +4,6 @@ title: "WordPress: Add Google News Sitemaps using WordPress SEO"
 description: ""
 ---
 
----
-layout: post
-title: "WordPress: Add Google News Sitemaps using WordPress SEO"
-description: ""
----
-
 ## Introduction
 
 In this article, you're going to learn how to add [Google News](https://news.google.com/) Sitemaps to your WordPress site without installing any additional plugin when you already have [WordPress SEO](https://yoast.com/wordpress/plugins/seo/).
