@@ -54,10 +54,10 @@ Inside custom sitemap callback function:
 ```php
 <?php
 $query_args = [
-     'post_type' => 'post',
-     'post_status' => 'publish',
-     'posts_per_page' => 1000, // Google bots won't crawl more than 1000 entries per sitemap
-     'paged' => 1
+    'post_type'      => 'post',
+    'post_status'    => 'publish',
+    'posts_per_page' => 1000, // Google bots won't crawl more than 1000 entries per sitemap
+    'paged'          => 1
 ];
 $posts = get_posts($query_args);
 
@@ -67,17 +67,19 @@ The next step is to append query result to an XML content, we'll continue after 
 
 ```php
 <?php
+
+$site_title = get_bloginfo( 'name' ); // get site's name
+$language   = get_bloginfo( 'language' ); // get site's language (e.g. en or ar)
+
 $xml = '<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">';
+xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">';
 foreach($posts as $post) {
     $permalink = get_permalink($post->ID);
 
-    $title = $post->post_title;
-    $site_title = get_bloginfo( 'name' ); // get site's name
-    $language = get_bloginfo( 'language' ); // get site's language (e.g. en or ar)
-    $date = get_the_time( 'c', $post->ID ); // c is the complete date plus hours, minutes, seconds and a decimal fraction of a second which is accepted by Google
-    $genres = 'PressRelease'; // Comma-seperated geners
+    $title    = $post->post_title;
+    $date     = get_the_time( 'c', $post->ID ); // c is the complete date plus hours, minutes, seconds and a decimal fraction of a second which is accepted by Google
+    $genres   = 'PressRelease'; // Comma-seperated geners
     $keywords = 'comma, seperated, keywords'; // Comma-seperated keywords
 
     $xml .= <<<XML
