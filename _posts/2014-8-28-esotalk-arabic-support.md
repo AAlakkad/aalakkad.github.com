@@ -1,8 +1,12 @@
+---
+layout: post
+title: "esoTalk Arabic Support"
+image: uploads/esotalk-screenshot.png
+---
+
 I've been asked at the company to use/implement forum software with simple/clean theme and footprint.
 
 After a little search I found [esoTalk](http://esotalk.org), a very nice *fat free* forum.
-
-![esoTalk screenshot](uploads/esotalk-screenshot.png)
 
 To have Arabic support in esoTalk you've to implement 2 things; RTL Skin (theme) and Arabic language pack.
 
