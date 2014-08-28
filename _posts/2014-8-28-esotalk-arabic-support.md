@@ -34,7 +34,7 @@ The language pack isn't complete yet, but you can use it (and help me finish it 
 
 ### Installation
 
-- Download the [zip file](https://github.com/AAlakkad/esoTalk-Arabic-Translation/archive/master.zip) and extract its content in `addons/language/Arabicd`.
+- Download the [zip file](https://github.com/AAlakkad/esoTalk-Arabic-Translation/archive/master.zip) and extract its content in `addons/language/Arabic`.
 - Rename the extracted folder to `Arabic`.
 - Then go to `Settings` in administration panel and activate the language.
 
