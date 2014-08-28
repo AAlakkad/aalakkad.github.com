@@ -579,8 +579,7 @@ p, ol, ul {
 img {
   max-width: 100%;
   margin: 0 0 1em;
-  border-radius: 0.25em;
-  box-shadow: 0 0 10px #777; }
+  border-radius: 0.25em; }
 
 @media (min-width: 768px) {
   .container {
@@ -591,9 +590,9 @@ img {
   .navbar h1 {
     margin: auto; }
 
-.img-rounded {
-  -webkit-box-shadow: 0 0 3px #999;
-  box-shadow: 0 0 3px #aaa; }
+.img-responsive {
+  -webkit-box-shadow: 0 0 10px #777;
+  box-shadow: 0 0 10px #777; }
 
 .title {
   color: rgba(0, 0, 0, 0.8); }
