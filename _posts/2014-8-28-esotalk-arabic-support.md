@@ -1,5 +1,3 @@
-# esoTalk Arabic Support
-
 I've been asked at the company to use/implement forum software with simple/clean theme and footprint.
 
 After a little search I found (esoTalk)[http://esotalk.org], a very nice *fat free* forum.
