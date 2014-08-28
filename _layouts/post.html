@@ -7,7 +7,7 @@ layout: default
         <date class="date">{{ page.date | date: "%B %d, %Y" }}</date>
 
         {% if page.image %}
-            <p><img class="img-responsive" src="{{ site.url }}/images/{{ page.image }}" alt="{{ page.title }}"></p>
+            <p><img class="img-responsive" src="{{ site.url }}/{{ page.image }}" alt="{{ page.title }}"></p>
         {% endif %}
 
         {{ content }}

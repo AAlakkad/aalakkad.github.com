@@ -11,7 +11,7 @@ title: Blog
         <date class="date">{{ post.date | date: "%B %d, %Y" }}</date>
 
         {% if post.image %}
-            <p><img class="img-responsive" src="{{ site.url }}/images/{{ post.image }}" alt="{{ page.title }}"></p>
+            <p><img class="img-responsive" src="{{ site.url }}/{{ post.image }}" alt="{{ page.title }}"></p>
         {% endif %}
 
         {{ post.content }}
