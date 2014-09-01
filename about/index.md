@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-I help people do business and be happy by them having a pretty web sites! 
+I help people do business and become happy by having a pretty web sites! 
 
 Using Laravel, Wordpress, JavaScript, CSS (Twitter Bootstrap, Zurb Foundation, SASS/LESS), Grunt, and other awesome web technologies and tools.
 
