@@ -3,13 +3,15 @@ layout: page
 title: About
 ---
 
-I've been working with PHP, HTML, JS, and CSS since 2009.
+I help people do business and be happy by them having a pretty web sites! 
+
+Using Laravel, Wordpress, JavaScript, CSS (Twitter Bootstrap, Zurb Foundation, SASS/LESS), Grunt, and other awesome web technologies and tools.
 
 I've a Technical Deploma in Computer Networks, and I'm at the final term at UoG to get my BSc in Computing.
 
-I work basically with PHP (Laravel, WordPress), JavaScript, CSS (Twitter Bootstrap, Zurb Foundation, SASS/LESS), Grunt, and others web technologies and tools.
+I work basically with PHP (Laravel, WordPress), JavaScript, 
 
-I work on Lenovo ThinkPad Edge E531 with Ubuntu and my favorite editor [Sublime Text 3](http://sublimetext.com/3).
+My laptop is Lenovo ThinkPad Edge E531 with Ubuntu and my favorite editor [Sublime Text 3](http://sublimetext.com/3).
 
 
 ### Get in touch
