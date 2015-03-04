@@ -16,4 +16,4 @@ In my case I can simply do the following to fix the conflict:
 
 And we're done!
 
-*Note: * Careful when using * versions or `dev-master` in the `composer.json` file.
+*Note:* Careful when using * versions or `dev-master` in the `composer.json` file.
