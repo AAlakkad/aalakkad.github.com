@@ -3,7 +3,7 @@ description: Blog
 highlighter: pygments
 markdown: redcarpet
 permalink: /blog/:title/
-production_url: http://aalakkad.github.io
+production_url: http://aalakkad.me
 rss_path: /rss.xml
 timezone: Asia/Syria
 encoding: UTF-8
