@@ -1,1 +1,66 @@
+==================================================================
+https://keybase.io/aalakkad
+--------------------------------------------------------------------
 
+I hereby claim:
+
+  * I am an admin of https://aalakkad.me
+  * I am aalakkad (https://keybase.io/aalakkad) on keybase.
+  * I have a public key with fingerprint 9AE7 3C1B 6350 9665 7417  49DE 718C 233A B848 FF4E
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "9ae73c1b63509665741749de718c233ab848ff4e",
+            "host": "keybase.io",
+            "key_id": "718c233ab848ff4e",
+            "kid": "0101017b51c58148a37020923f6a0a39bc686a9e475c0bceb3c0f067e5a81f7417d50a",
+            "uid": "002fb7461bbdbc638be53540ec6a2719",
+            "username": "aalakkad"
+        },
+        "service": {
+            "hostname": "aalakkad.me",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1427097020,
+    "expire_in": 157680000,
+    "prev": "febaf2657835ce8aa000c91772a1dec226594cc5f8086d94902bab4e2f9c611e",
+    "seqno": 5,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.8
+Comment: https://keybase.io/crypto
+
+yMILAnicbVJZSFVBGL6WmYptFhlShCdIyaWZs82cK6kkLRBRBIZBcZmZM0cP6jm3
+u5mY+BKh2AYRYWSo2IMU4YsgbZQWtqkEkRqi2KKEIUpRSFDNsXqJZh6G+b9lvv9n
+Hq1Y6kuOe5bvbDmXlYnjnj8sivpKVj2+WytR16yR/LVSBV88LNsp46FgyHYikl8y
+CEcKg1RXNGDouoZUiFTD5AhiJisKoVjFlqVyKUcqd8OeQthQEuZ5titq4hKwTVH9
+D79iEQDQ24hqkGkYqpgoCMjAkBVLJ4AoBmU61onBVaQxQBmnCgMW0BHXCIaWF8fU
+ABF20d92QLYoUnVIqSmkCqZcUzQVcKYTGUHDI4Z5yCFVXLAJqSQVFcSU6nIkUY3Z
+jHsj8Dr5h5FX5UUOhtyIy9xKAZRHIsGw3xNGaoIes5rTwB+PALUdU4xRKGI8FLZd
+R/JDwWQR2zOFqoyA4bWZI/ETQTvEA7bH0JCOgVjeOzwmLC1OiSWLoWNFYxwTIkBm
+QIRkAk3OZAEZKmOahQHWTUM1gEwJVblsGUyH0Esc5scdV/JrIiYpE5Zhu8whkWiI
+S3W9D47G++KSfQnLlngfwZectPrv98joTPQ18pret0/uHJyMLlw5khazZzZdO5SY
+lrmep+75lLGQlt/VMPPlTcBJb0TNrDDUhBP8H9tGU1Z+rWnpuY1S1Pv3J+6uWXFa
+769sfpXRVDrVnjMUGc98ue/qXNtPI5Yy0W5Vt6DOovnpYOPY7MPsD4MtVsroj2Hl
+wcXgVJrbl5R7a/fagtb0kYuwYbPeU3ApfevJjb3mxEJ7fGpx+kig5KY9/A52ZF+v
+G7h5AeSOl+6/Mfz8SdfnsZfd89Og9VQUr3PmCr819i2cHdz+dOflM5NS63gJNsvn
+99YXkg337PM7BtC2+vf5WYmo3yjqOPA9Orv69YXlh5u7h7Je7Co+du4XT6kl7g==
+=JDal
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/aalakkad
+
+==================================================================
