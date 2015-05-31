@@ -38,9 +38,6 @@
         {% if page.excerpt %}
         <meta name="twitter:description" content="{{ page.excerpt }}" />
         <meta property="og:description" content="{{ page.excerpt }}" />
-        {% elsif page.content %}
-        <meta name="twitter:description" content="{{ page.content | truncatewords: 25 }}" />
-        <meta property="og:description" content="{{ page.content | truncatewords: 25 }}" />
         {% endif %}
 
         {% if page.image %}
