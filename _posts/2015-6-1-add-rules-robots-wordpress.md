@@ -9,6 +9,7 @@ There's 2 types of robots.txt files in WordPress, it's either virtual (generated
 To add rules to the virtual robots.txt file you need to *hook* into `robots_txt` filter, like this: 
 
 ```php
+<?php
 add_filter('robots_txt', function($content, $is_public) {
     $content .= "\n";
     $content .= "User-Agent: *";
